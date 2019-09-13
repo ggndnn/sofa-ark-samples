@@ -6,5 +6,6 @@
 - 手动从Maven仓库添加Sofa Ark插件模块`com.alipay.sofa:web-ark-plugin:0.6.0`到运行配置并启动应用
 - 如果启动应用的过程遇到错误`Master biz should be configured when deploy multi biz`, 请添加虚拟机参数`-Dcom.alipay.sofa.ark.master.biz=sample-bundle`
 - 如果启动应用的过程遇到错误`The following properties were declared as required but could not be resolved: [spring.application.name]`, 请添加虚拟机参数`-Dspring.application.name=app1`
+- 如果启动应用的过程遇到错误`[ArkBiz Loader] sample-biz:1.0.0-SNAPSHOT : can not load class: com.alipay.sofa.ark.web.embed.tomcat.ArkTomcatEmbeddedWebappClassLoader`, 请检查运行配置是不是忘记勾选模块`web-ark-plugin`
 - 打开浏览器访问`http://localhost:8080/hello`或者`http://localhost:8080/sample2/hello`验证结果
 - 如果在运行配置中出现模块找不到的情况或异常, 请手动重新导入Maven工程(Reimport maven projects)
