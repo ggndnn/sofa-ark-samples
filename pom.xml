@@ -92,6 +92,12 @@
                 <artifactId>infra-sofa-boot-starter</artifactId>
                 <version>${sofa.boot.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>com.alipay.sofa</groupId>
+                <artifactId>web-ark-plugin</artifactId>
+                <version>${ark.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 

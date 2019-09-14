@@ -20,6 +20,11 @@
 			<groupId>com.alipay.sofa</groupId>
 			<artifactId>runtime-sofa-boot-plugin</artifactId>
 		</dependency>
+
+		<dependency>
+			<groupId>com.alipay.sofa</groupId>
+			<artifactId>web-ark-plugin</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
